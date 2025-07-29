@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo dpkg-reconfigure keyboard-configuration
+# sudo dpkg-reconfigure keyboard-configuration
 sudo truncate -s 0 /etc/issue
 sudo truncate -s 0 /etc/motd
 
