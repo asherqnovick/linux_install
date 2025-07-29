@@ -21,6 +21,7 @@ sudo apt install -y i3
 sudo apt install -y yt-dlp
 sudo apt install -y gh
 sudo apt install -y golang
+sudo apt install -y alacritty
 
 sudo apt -y autoremove
 
