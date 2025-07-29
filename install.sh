@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo dpkg-reconfigure keyboard-configuration
-chsh -s /bin/zsh
 sudo truncate -s 0 /etc/issue
 sudo truncate -s 0 /etc/motd
 
@@ -38,6 +37,7 @@ sudo apt -y clean
 sudo apt -y autoremove
 
 echo "exec i3" > $HOME/.initrc
+chsh -s /bin/zsh
 
 gh auth login
 gh auth setup-git
