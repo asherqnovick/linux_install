@@ -30,8 +30,6 @@ sudo apt install -y yt-dlp
 sudo apt install -y gh
 sudo apt install -y golang
 
-./reaper.sh
-
 sudo apt -y upgrade
 sudo apt -y clean
 sudo apt -y autoremove
