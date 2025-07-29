@@ -9,7 +9,7 @@ sudo bash -c 'echo deb http://ftp.us.debian.org/debian trixie main >> /etc/apt/s
 
 sudo apt install -y git
 sudo apt install -y stow
-git clone https://github.com/asherqnovick/dotfiles_linux/ | $HOME/dotfiles
+git clone https://github.com/asherqnovick/dotfiles_linux/ $HOME/dotfiles
 stow -d $HOME/dotfiles .
 
 
